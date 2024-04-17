@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job! You have all test cases passing! */
 const coolGreeting = (person) => {
   if (person.isCool === true) {
     return `What is UP ${person.name.toUpperCase()}? How you been doin'?`
@@ -62,6 +63,7 @@ const listAllValues = (theObject) => {
 
 const convertToMatrix = (theObject) => {
   const matrix = [];
+  /** FEEDBACK: This condition will always be false since arrays are references, remember that an array will never equal another array! */
   if (theObject === []) {
     return theObject
   }
